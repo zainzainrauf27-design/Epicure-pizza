@@ -1,0 +1,1 @@
+@extends('layout') @section('title','Orders | EPICURE') @section('content')<section class="page-head"><p class="eyebrow">FULFILMENT</p><h1>Orders</h1></section><section class="section">@include('admin._orders'){{ $orders->links() }}</section>@endsection
